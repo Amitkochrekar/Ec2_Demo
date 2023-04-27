@@ -2,4 +2,4 @@ tags = {
   "Name" = "webserver"
   "Environment" = "Dev"
 }
-ec2count = 1
+ec2count = 2
