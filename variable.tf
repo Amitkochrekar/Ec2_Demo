@@ -22,7 +22,7 @@ variable "key_name" {
   type = string
 description = "key pair"
 }
-variable "count" {
+variable "ec2count" {
   type = number
   description = "number of ec2 instance"
 }
