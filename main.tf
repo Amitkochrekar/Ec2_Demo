@@ -1,5 +1,5 @@
 resource "aws_instance" "webserver" {
-    count = var.count
+    count = var.ec2count
   ami = var.ami_id
   instance_type = var.instance_type
   availability_zone = var.availability_zone
